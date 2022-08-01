@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.nav1{
+  padding:16px 32px;
+}
+
+.nav1 a{
+  margin-right: 12px;
+}
+
+.nav1 a.active{
+  color: red;
+}

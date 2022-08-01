@@ -1,0 +1,27 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque; */
+    /* width: 80%; */
+    margin: 10px;
+}
+
+.page{
+    width: 80%;
+}
+
+.create-product{
+    text-decoration: none;
+    background-color: rgb(154, 145, 207);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+.product-image{
+    display: flex;
+    flex-wrap: wrap;
+
+}

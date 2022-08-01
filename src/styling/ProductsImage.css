@@ -1,0 +1,25 @@
+.product-section{
+    display: flex;
+}
+
+.product-section img{
+    margin: 0 20px;
+    padding: 0 30px;
+}
+
+.image-description{
+    margin-left: 20px;
+    padding-top: 20px;
+   
+}
+.addtocart{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: rgb(154, 145, 207);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.top-margin{
+    margin-top: 20px;
+}
