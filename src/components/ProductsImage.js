@@ -10,6 +10,7 @@ export const ProductsImage = ({data}) => {
       <div className="image-description">
         <h2>{data.name}</h2>
         <p>{data.description}</p>
+        <p>Quantity :{data.quantity}</p>
         <p>
           Price : <strong>${data.price}</strong>
         </p>
