@@ -11,7 +11,7 @@ export const Products = () => {
     ["product", id],
     getData
   );
-  console.log(data);
+  // console.log(data);
   if (isLoading) {
     return <h2>Loading...</h2>;
   }

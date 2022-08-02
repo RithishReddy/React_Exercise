@@ -9,7 +9,7 @@ export const fetchProducts = async () => {
 
 
 export const getData = async ({ queryKey }) => {
-  console.log(queryKey)
+  // console.log(queryKey)
   const  data  = await axios.get(
     `https://obscure-refuge-62167.herokuapp.com/products/${queryKey[1]}`
   );

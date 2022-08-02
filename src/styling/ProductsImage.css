@@ -40,3 +40,11 @@
 .top-margin{
     margin-top: 20px;
 }  
+
+
+.variant-image button{
+
+    padding: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
