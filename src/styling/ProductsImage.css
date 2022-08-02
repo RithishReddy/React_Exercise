@@ -1,10 +1,26 @@
-.product-section{
+ .product-section{
+    margin-top: 50px;
     display: flex;
+    max-width: 100%;
+   
+}
+.product-image img{
+    width: 80%;
+   
+   
+}
+.product-image{
+    flex: 1;
+}
+.image-description{
+    flex: 1;
 }
 
+
+
 .product-section img{
-    margin: 0 20px;
-    padding: 0 30px;
+    max-width: 100%;
+   
 }
 
 .image-description{
@@ -22,4 +38,4 @@
 }
 .top-margin{
     margin-top: 20px;
-}
+}  

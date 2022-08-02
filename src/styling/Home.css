@@ -24,4 +24,18 @@
     display: flex;
     flex-wrap: wrap;
 
+    align-items: center;
+    
+    
+    
 }
+
+.prod{
+    width: 33%;
+    height: auto;
+    text-decoration: none;
+    color: black;
+}
+
+
+
