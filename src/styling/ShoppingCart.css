@@ -1,0 +1,33 @@
+.cart-block{
+    display:flex;
+    max-width:100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.cart-image img{
+    width: 100%;
+    height: auto;
+}
+
+.cart-image{
+    flex: 1;
+}
+
+ .cart-description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    flex: 1;
+    margin-left: 20px;
+
+    /* line-height: 1.5em; */
+     
+    
+ }
+ .cart-description p{
+    padding-top: 12px;
+   
+ }

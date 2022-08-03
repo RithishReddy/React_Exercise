@@ -1,4 +1,4 @@
-.head{
+.head {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,11 +7,11 @@
     margin: 10px;
 }
 
-.page{
+.page {
     width: 80%;
 }
 
-.create-product{
+.create-product {
     text-decoration: none;
     background-color: rgb(154, 145, 207);
     color: white;
@@ -20,22 +20,53 @@
 }
 
 
-.product-image{
+.products-image {
     display: flex;
     flex-wrap: wrap;
 
     align-items: center;
-    
-    
-    
+
+
+
 }
 
-.prod{
+.prod {
     width: 33%;
     height: auto;
     text-decoration: none;
     color: black;
 }
 
+.nav-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 
 
+.cart-button {
+    position: absolute;
+    right: 10px;
+
+
+}
+
+.cart-button button {
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: rgb(96, 78, 202);
+    color: white;
+    border-radius: 7px;
+    border: none;
+
+}
+
+.cart-page {
+    position: absolute;
+    border: black;
+    right: 20px;
+    top: 45px;
+    width: 60%;
+    background-color: darkgrey;
+
+}

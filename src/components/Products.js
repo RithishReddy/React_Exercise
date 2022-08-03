@@ -19,11 +19,13 @@ export const Products = () => {
     return <h2>Error:{error.message}</h2>;
   }
 
+  // console.log(data)
+  
   const productData = data.data;
 
   return (
     <>
-      <ProductsImage data={productData} />
+      <ProductsImage  data={productData} />
     </>
   );
 };

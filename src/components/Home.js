@@ -28,7 +28,7 @@ export const Home = () => {
         </Link>
         
       </section>
-      <section className="product-image">
+      <section className="products-image">
         { data?.data.map(product=> (
           <Link className='prod' to={`products/${product.id}`} key={product.id}>
             <ProductCard
