@@ -16,7 +16,7 @@ export const Navbar = () => {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/products/1">Products</NavLink>
       </nav>
-    {console.log(cart)}
+    {/* {console.log(cart)} */}
       <div className="cart-button">
         <button onClick={handleClick}>Cart  ({Object.keys(cart).length})</button>
       </div>

@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export const fetchProducts = async () => {
   const res = await axios
-        .get("https://obscure-refuge-62167.herokuapp.com/products");
+        .get("https://stark-woodland-82096.herokuapp.com/api/products");
     return res;
 };
 
@@ -11,7 +11,7 @@ export const fetchProducts = async () => {
 export const getData = async ({ queryKey }) => {
   // console.log(queryKey)
   const  data  = await axios.get(
-    `https://obscure-refuge-62167.herokuapp.com/products/${queryKey[1]}`
+    `https://stark-woodland-82096.herokuapp.com/api/products/${queryKey[1]}`
   );
   return data;
 };
